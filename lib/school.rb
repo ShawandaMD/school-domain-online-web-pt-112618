@@ -16,7 +16,7 @@ class School
   end  
   
   def grade(grade)
-    @roster[grade].map {|name| name }
+    @roster[grade]
     binding.pry
   end
   
