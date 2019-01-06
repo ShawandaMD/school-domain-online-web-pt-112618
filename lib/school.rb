@@ -18,7 +18,7 @@ class School
   def grade(grade)
     @roster[grade]
     #roster[grade].map {|name| name }
-    binding.pry
+   # binding.pry
   end
   
   def sort # this one was a bit confusing I wanted to use map
