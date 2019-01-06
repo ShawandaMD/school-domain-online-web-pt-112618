@@ -22,8 +22,8 @@ class School
   end
   
   def sort # this one was a bit confusing I wanted to use map
-    sort_students = {}
+    #sort_students = {} sort returns a new array even if each is called
     @roster.each {|grade, name| sort_students[grade] = name.sort}
-    sort_students
+    #sort_students
   end  
 end  
